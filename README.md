@@ -1,5 +1,7 @@
 # JSendie
 
+[![Build Status](https://travis-ci.org/kahwooi/jsendie.svg?branch=master)](https://travis-ci.org/kahwooi/jsendie)
+
 **JSendie** is an [Express](http://expressjs.com) middleware to provide structured JSON reponses 
 with 3 new methods - `res.success`, `res.fail`, and `res.error`.
 It is based on JSend specification ([http://labs.omniti.com/labs/jsend](http://labs.omniti.com/labs/jsend)).
@@ -13,7 +15,7 @@ npm install jsendie
 Setup the middleware in your [Express](http://expressjs.com) app. Before any routes.
 ```javascript
 var express = require('express')
-  , JSendie = require('jsendie')
+  , jsendie = require('jsendie')
   , app = express()
   , PORT = 3000;
 
