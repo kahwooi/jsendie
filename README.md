@@ -59,4 +59,4 @@ https://github.com/kahwooi/jsendie/blob/master/test/server.js
 
 ## License
 
-Released under the MIT License: [http://flesch.mit-license.org](http://flesch.mit-license.org)
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
