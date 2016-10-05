@@ -1,0 +1,36 @@
+{
+  "name": "jsendie",
+  "version": "0.0.1",
+  "description": "Simple JSON response format",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kahwooi/jsendie.git"
+  },
+  "keywords": [
+    "jsend",
+    "json",
+    "api",
+    "response",
+    "express",
+    "middleware"
+  ],
+  "author": "Kelvin Tan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kahwooi/jsendie/issues"
+  },
+  "homepage": "https://github.com/kahwooi/jsendie#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "mocha": "^3.1.0",
+    "supertest": "^2.0.0"
+  }
+}
